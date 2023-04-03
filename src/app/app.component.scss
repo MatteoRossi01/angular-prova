@@ -1,0 +1,9 @@
+.cards-container {
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 30px;
+}
