@@ -13,5 +13,11 @@ export class MyDataService {
       'http://localhost:5000/api/restaurant/getRestaurants/0/10'
     );
   };
+  
+  getSingleData() {
+    return this.http.get(
+      'http://localhost:5000/api/tipologiche/getCuisinesList'
+    );
+  }
 
 }

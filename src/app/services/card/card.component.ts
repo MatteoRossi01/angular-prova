@@ -19,6 +19,10 @@ export class CardComponent implements OnInit {
       this.myData = data.array;
     });
 
+    this.MyDataService.getSingleData().subscribe((response:any) => {
+      this.mySingleData = response.array;
+    });
+
   };
 
 }
