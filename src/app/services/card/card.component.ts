@@ -20,7 +20,7 @@ export class CardComponent implements OnInit {
     });
 
     this.MyDataService.getSingleData().subscribe((response:any) => {
-      this.mySingleData = response.array;
+      this.mySingleData = response;
     });
 
   };
